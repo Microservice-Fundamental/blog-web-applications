@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fcd2600-2198-429c-9bdc-935616a51f62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="ProjectId" id="20rH37iy9Hp7q2CSMRK9AN06GV3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\course\nodejs-react-microservice\client\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\course\nodejs-react-microservice" />
+      <recent name="E:\course\nodejs-react-microservice\client\src\app\models" />
+      <recent name="E:\course\nodejs-react-microservice\client\assets" />
+      <recent name="E:\course\nodejs-react-microservice\client\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\course\nodejs-react-microservice\query" />
+      <recent name="E:\course\nodejs-react-microservice\client\src\assets" />
+      <recent name="E:\course\nodejs-react-microservice\client\src\app\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fcd2600-2198-429c-9bdc-935616a51f62" name="Default Changelist" comment="" />
+      <created>1636795584457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636795584457</updated>
+      <workItem from="1636795585483" duration="14881000" />
+      <workItem from="1636875815764" duration="13386000" />
+    </task>
+    <task id="LOCAL-00001" summary="complete template">
+      <created>1636888653145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636888653145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implement query from Post and Comment services">
+      <created>1636888769052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636888769052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete template" />
+    <MESSAGE value="implement query from Post and Comment services" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement query from Post and Comment services" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="350" y="162" key="EditFileWatcherDialog" timestamp="1636804477843">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="350" y="162" key="EditFileWatcherDialog/0.0.1366.768@0.0.1366.768" timestamp="1636804477843" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1636798555335">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1636798555335" />
+    <state x="0" y="0" width="583" height="768" key="find.popup" timestamp="1636804392100">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" width="583" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1636804392100" />
+  </component>
+</project>
