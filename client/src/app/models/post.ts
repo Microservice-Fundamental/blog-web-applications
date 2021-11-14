@@ -1,0 +1,1 @@
+export class Post {  id: string | undefined;  title: string;  content: string;  constructor() {    this.title = '';    this.content = '';  }}
