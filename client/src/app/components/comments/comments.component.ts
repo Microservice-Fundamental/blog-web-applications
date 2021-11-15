@@ -9,12 +9,13 @@ import { CommentService } from "../../services/comment.service";
 })
 export class CommentsComponent implements OnInit {
   public comments = new Comments();
-  commentList: any = [];
+  @Input() commentList: any;
   @Input() blogId: any;
+
   constructor(private commentService: CommentService) { }
 
   ngOnInit(): void {
-    this.getAllComments();
+    // this.getAllComments();
   }
 
   onCommentPost(commentForm: any) {
@@ -27,13 +28,13 @@ export class CommentsComponent implements OnInit {
     );
   }
 
-  getAllComments() {
-    this.commentService.getAllCommentsForBlog(this.blogId)
-      .subscribe(result => {
-        Object.values(result).map(comment => {
-          return this.commentList.push(comment);
-        })
-      });
-  }
+  // getAllComments() {
+  //   this.commentService.getAllCommentsForBlog(this.blogId)
+  //     .subscribe(result => {
+  //       Object.values(result).map(comment => {
+  //         return this.commentList.push(comment);
+  //       })
+  //     });
+  // }
 
 }

@@ -1,1 +1,1 @@
-this is demo microservice with nodejs and angular.TBA
+this is demo microservice with nodejs and angular.service-posts - localhost:4000service-comments - localhost:4001service-query - localhost:4002This is about presentation logic, It will join two resource (Posts service and Comments Service)event-bus - localhost:4005

@@ -26,8 +26,9 @@ export class BlogService {
   }
 
   getPost(postId: number): Observable<Post[]> {
-    return this.http.get<any>(`${environment.apiBaseUrl}` + `/posts/${postId}`)
+    return this.http.get<any>(`${ environment.apiBaseUrlQuery }` + `/posts/${postId}`)
       .pipe(map(res => {
+        console.log('post: ', res)
         return res;
       }));
   }
