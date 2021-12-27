@@ -27,4 +27,10 @@ export class BlogComponent implements OnInit {
       );
   }
 
+  reloadComponents(isReload: boolean) {
+    if (isReload === true) {
+      this.ngOnInit();
+    }
+  }
+
 }
