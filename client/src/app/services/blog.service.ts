@@ -12,7 +12,7 @@ export class BlogService {
   constructor(private http: HttpClient) { }
 
   createPost(post: Post): any {
-    return this.http.post<any>(`${environment.apiBaseUrl}` + '/posts', post)
+    return this.http.post<any>(`${environment.apiBaseUrl}` + '/posts/create', post)
       .pipe(map(res => {
         return res;
       }));
