@@ -22,6 +22,7 @@ export class CommentsComponent implements OnInit {
 
   onCommentPost(commentForm: any) {
     this.comments.postId = this.blogId;
+    this.comments.date = new Date();
     this.commentService.saveComment(this.comments).subscribe(
       () => {
         commentForm.resetForm();

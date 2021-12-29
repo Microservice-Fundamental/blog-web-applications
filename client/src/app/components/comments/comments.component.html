@@ -34,7 +34,7 @@
     </div>
   </mat-card-title>
 
-  <mat-card-subtitle>20/11/2021</mat-card-subtitle>
+  <mat-card-subtitle>{{comment.date}}</mat-card-subtitle>
   <mat-card-content>
     <div *ngIf="comment.status == 'reject'; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock>Your comment is blocked.</ng-template>
