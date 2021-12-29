@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://localhost:4000',
-  apiBaseUrlComment: 'http://localhost:4001',
-  apiBaseUrlQuery: 'http://localhost:4002'
+  apiBaseUrl: 'http://posts.com',
+  apiBaseUrlComment: 'http://posts.com',
+  apiBaseUrlQuery: 'http://posts.com'
 };
 /*
  * For easier debugging in development mode, you can import the following file
